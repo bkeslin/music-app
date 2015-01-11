@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="50dp"
+                android:background="@color/grey"
+                tools:context=".MainActivity"
+                android:orientation="vertical"
+                >
+
+    <EditText
+        android:id="@+id/editText2"
+        android:hint = "JukeBox Name:"
+        android:layout_width = "match_parent"
+        android:layout_height = "50dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:hint = "Genre:"
+        android:layout_width = "match_parent"
+        android:layout_height = "50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <EditText
+        android:hint = "Atmosphere"
+        android:layout_width = "match_parent"
+        android:layout_height = "50dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
+
+    <EditText
+        android:hint = "Distance (miles)"
+        android:layout_width = "match_parent"
+        android:layout_height = "50dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height = "50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="80dp"
+        android:text="Create your JukeBox!"
+        />
+
+</LinearLayout>

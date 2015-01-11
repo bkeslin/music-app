@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Base application theme. -->
+        <!-- inherit from the material theme -->
+        <style name="AppTheme" parent="android:Theme.Holo.NoActionBar">
+
+        </style>
+
+</resources>

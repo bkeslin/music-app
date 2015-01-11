@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/grey"
+              android:layout_gravity="top"
+              android:orientation="vertical">
+
+    <TextView
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="Arial"
+        android:text="LOG IN TO SPOTIFY">
+        </TextView>
+
+    <TextView
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="Arial"
+        android:text="">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="left">
+
+        <ImageButton
+            android:id="@+id/facebook_image"
+            android:background="@color/facebookblue"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_gravity="left"
+            />
+
+        <Button
+            android:id="@+id/login_button"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="@string/facebook_login"
+            android:textSize="15sp"
+            android:background="@color/facebookblue"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:text="OR">
+    </TextView>
+
+    <EditText
+        android:id="@+id/username_field"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:hint="@string/spotify_username"
+        android:inputType="text">
+    </EditText>
+
+    <EditText
+        android:id="@+id/password_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:hint="@string/spotify_password"
+        android:inputType="textPassword">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="left">
+
+        <ImageButton
+            android:id="@+id/spotify_image"
+            android:background="@color/spotifygreen"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_gravity="left"
+            android:src="@drawable/spotifylogo"/>
+
+        <Button
+            android:id="@+id/spotifylogin_button"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="Login"
+            android:textSize="15sp"
+            android:background="@color/spotifygreen"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

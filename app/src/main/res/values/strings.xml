@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#262626</color>
+    <color name="facebookblue">#3B5998</color>
+    <color name="spotifygreen">#81b71a</color>
+    <string name="spotify_username">Spotify Username</string>
+    <string name="facebook_login">Login via Facebook</string>
+    <string name="spotify_password">Password</string>
+    <string name="login_button">Login via Spotify</string>
+    <string name="add_a_song">ADD A SONG</string>
+    <string name="app_name">UserMusic</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

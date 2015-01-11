@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'com.android.application'
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.0.0'
+    }
+}
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2" // Note: this version should match the latest build-tools version
+    // that you installed in the SDK manager
+
+    defaultConfig {
+        applicationId "ryanproject.usermusic"
+        minSdkVersion 18
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
