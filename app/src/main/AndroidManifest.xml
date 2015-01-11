@@ -41,5 +41,15 @@
             android:label="@string/app_name"
             android:launchMode="singleInstance" >
         </activity>
+        <activity
+        android:name="com.ryanproject.usermusic.login.make_playlist"
+        android:label="@string/app_name"
+        android:launchMode="singleInstance" >
+      </activity>
+        <activity
+            android:name="com.ryanproject.usermusic.login.the_playlist"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+        </activity>
     </application>
 </manifest>

@@ -13,31 +13,23 @@
               android:textSize="20dp"
               android:textColor="@color/white"
               android:gravity="left"
-              android:text="Choose From a Local JukeBox"/>
+              android:text="Your Playlist"/>
 
 
     <ListView android:id="@+id/playlists"
               android:layout_width="match_parent"
-              android:layout_height="350dp"/>
-
-    <TextView
-        android:padding="10dp"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textColor="@color/white"
-        android:text="OR">
-    </TextView>
+              android:layout_height="325dp"/>
 
     <Button
-        android:id="@+id/add_song_button"
+        android:id="@+id/move_on_button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:textSize="20sp"
-        android:textColor="@color/white"
-        android:gravity="center"
-        android:text="Create A Local JukeBox!"/>
+        android:layout_height = "50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="80dp"
+        android:text="Veto!"
+        />
+
+
+
 
 </LinearLayout>
